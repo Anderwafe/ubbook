@@ -65,7 +65,7 @@ private:
 И теперь достаточно было просто сделать
 
 ```C++
-    class SomeAsyncActor : public SomeAsyncActor {
+    class SomeAsyncActor : public AsyncActor {
         void run() override {...}
     };
 
